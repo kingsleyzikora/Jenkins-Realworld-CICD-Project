@@ -95,7 +95,7 @@ pipeline {
               artifacts: [
                   [artifactId: 'webapp',
                   classifier: '',
-                  file: "${WORKSPACE}/webapp/target/webapp.war",
+                  file: "${WORKSPACE}/target/webapp-webapp.war",  
                   type: 'war']
               ]
            )
